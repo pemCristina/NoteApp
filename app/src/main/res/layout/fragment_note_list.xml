@@ -5,6 +5,10 @@
     tools:context="es.telefonica.talentum.noteapp.NoteListFragment"
     android:background="@android:color/holo_blue_dark">
 
-
+    <!--PASO 1 DE RECYCLERVIEW-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_note_list_note_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </FrameLayout>
